@@ -8,6 +8,6 @@ Maintainer: Thomas Dybdal Pedersen <thomasp85@gmail.com>
 Description: A possibly diverse and expanding collection of functions used by different people and groups at Chr. Hansen H¿rsholm
 License: GPL (>= 2)
 LazyLoad: yes
-Depends: methods
+Depends: methods, xlsx, xlsxjars, rJava
 Imports: ggplot2, grid, gridExtra, reshape2, plyr, RColorBrewer
 Collate: 
