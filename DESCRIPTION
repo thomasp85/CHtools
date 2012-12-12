@@ -1,13 +1,13 @@
 Package: CHtools
 Type: Package
 Title: Collection of tools for use by Chr. Hansen
-Version: 0.0-1
+Version: 0.1-0
 Date: 2012-09-14
 Author: Thomas Dybdal Pedersen
 Maintainer: Thomas Dybdal Pedersen <thomasp85@gmail.com>
 Description: A possibly diverse and expanding collection of functions used by different people and groups at Chr. Hansen H¿rsholm
 License: GPL (>= 2)
 LazyLoad: yes
-Depends: methods, xlsx, xlsxjars, rJava
-Imports: ggplot2, grid, gridExtra, reshape2, plyr, RColorBrewer
-Collate: 
+Depends: methods, xlsx, xlsxjars, rJava, gWidgets, gWidgetsRGtk2, RGtk2
+Imports: ggplot2, grid, gridExtra, reshape2, plyr, RColorBrewer, scales, gtable
+Collate: processPlot.R

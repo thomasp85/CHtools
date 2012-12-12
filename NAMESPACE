@@ -1,4 +1,5 @@
 export(plotProcessReport)
+export(MCAplot)
 import(ggplot2)
 import(reshape2)
 import(plyr)
